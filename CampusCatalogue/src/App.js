@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import FoodCard from './components/food_card';
+import SearchBar from './components/search_bar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div  style={{backgroundColor: "#EFEEFA"}}>
+      {/* <FoodCard height="152px" width="156px" heading1='Food' heading2='Order food from across campus'/> */}
+      <SearchBar height="52px" width="328px"/>
     </div>
   );
 }
