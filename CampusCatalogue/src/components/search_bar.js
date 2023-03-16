@@ -7,7 +7,7 @@ const SearchBar = (props) => {
         <div style={{backgroundColor: "#FFFFFF",borderRadius: "16px", height: props.height, width: props.width, margin:"auto", position:"relative"}}>
             
             <div style={{color:"6F6F6F", fontSize:"16px", paddingLeft:"20px", paddingTop:"4%"}}>
-                Search for restaurant,food...
+                {props.textInput}
             </div>
             <img src={Searchicon1} alt="" className="card-img" style={{ position: 'absolute', top: "25%", right: "10%", height: "50%", width: "5%" }}  />
             <img src={Searchicon2} alt="" className="card-img" style={{ position: 'absolute', top: "25%", right: "5%", height: "50%", width: "5%" }}  />
