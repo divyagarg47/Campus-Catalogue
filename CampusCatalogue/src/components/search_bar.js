@@ -17,25 +17,4 @@ const SearchBar = (props) => {
     );
 }
 
-
-
-
-
-{/* // const SearchBar = () => { */}
-
-//     return (
-//         <div className="searchbar">  
-//             <form>
-//                 <input
-//                     className='searchInput'
-//                     type='text'
-//                     // onChange={handleChange}
-//                     placeholder='Search here'
-
-//                 />
-                
-//              </form> 
-//         </div>
-//     );
-// }
 export default SearchBar;

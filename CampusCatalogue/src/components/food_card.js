@@ -1,5 +1,3 @@
-import image from '../assets/pizza.png';
-
 export default function FoodCard(props) {
     return (
         <div style={{backgroundColor: "#FFFFFF",borderRadius: "16px", height: props.height, width: props.width, position: "relative", display: "flex", flexDirection: "column" }}>
@@ -12,7 +10,7 @@ export default function FoodCard(props) {
                 {props.heading2}
             </div>
 
-            <img src={image} alt="" className="card-img" style={{ position: 'absolute', borderRadius: "16px", bottom: "2px", right: "2px", height: "50%", width: "50%" }}  />
+            <img src={props.image} alt="" className="card-img" style={{ position: 'absolute', borderRadius: "16px", bottom: "2px", right: "2px", height: "50%", width: "50%" }}  />
         </div>
     );
 };
